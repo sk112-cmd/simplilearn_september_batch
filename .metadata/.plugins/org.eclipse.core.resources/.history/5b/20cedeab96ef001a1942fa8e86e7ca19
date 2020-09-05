@@ -1,0 +1,17 @@
+package pack1;
+
+public class A {
+	
+	public void helloPublic() {
+		System.out.println("Hello Public from Class A");
+	}
+	
+	private void helloPrivate() {
+		System.out.println("Hello from private method in Class A");
+	}
+	
+	protected void helloProtected() {
+		System.out.println("Hellofrom protected method in Class A");
+	}
+
+}

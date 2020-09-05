@@ -1,0 +1,29 @@
+package staticDemo;
+
+public class Demo {
+	
+	int x; //global & instance level
+	int y; //global & instance level
+	static int z; //global & class level
+
+	public static void main(String[] args) {
+		heyy();
+		Demo d1=new Demo();
+		d1.x=200;
+		d1.y=700;
+		d1.z=500;
+		
+
+	}
+	
+	public static void heyy() {
+		System.out.println("Hello static from the class Demo");
+	}
+	
+	public void printValues() {
+		System.out.println("x = "+x);
+		System.out.println("y = "+y);
+		System.out.println("z = "+z);
+	}
+
+}
