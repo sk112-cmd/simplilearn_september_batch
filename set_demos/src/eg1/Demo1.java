@@ -47,7 +47,7 @@ public class Demo1 {
 		System.out.println("ts = "+ts);
 		
 		for(String s:ts) {
-			System.out.println(s);
+			System.out.println(s.toUpperCase());
 		}
 		System.out.println(ts.size());
 		ts.remove("jme");
