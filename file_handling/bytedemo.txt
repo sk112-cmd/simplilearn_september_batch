@@ -1,0 +1,5 @@
+this is new message now
+I am new message tooooo
+Hello this is a test message inside the file
+Handling files in Java is simple
+programming is awesome in JAVA.

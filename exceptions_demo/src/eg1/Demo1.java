@@ -16,9 +16,7 @@ public class Demo1 {
 			System.out.println("You cannot divide by zero.. Please re-enter");
 		}catch(NullPointerException e) {
 			System.out.println("Something is null there");
-		}
-		
-		finally {
+		}finally {
 			System.out.println("Result is "+res);
 		}
 		System.out.println("This is other LOC in this app");
