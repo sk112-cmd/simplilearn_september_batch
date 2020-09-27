@@ -12,14 +12,14 @@ public class Main {
 		int r2=3,c2=2;
 		int firstMatrix[][]= {{3,-2,5},{3,0,4}};
 		int secondMatrix[][]= {{2,3},{-9,0},{0,4}};
-		BusinessLogic bl=new BusinessLogic();
+		BusinessLogic bl=new BusinessLogicImpl();
 		System.out.println("Welcome to Array Multidimensional Matricess example");
 		do {
 			System.out.println("Array Menu");
 			System.out.println("------------");
 			System.out.println("1)Add Matrices");
 			System.out.println("2)Subtract Matrices");
-			System.out.println("3)Delete Matrices");
+			System.out.println("3)Multiply Matrices");
 			System.out.println("4)EXIT");
 			System.out.println("Please enter your appropriate choice(1-4)");
 			try {
@@ -28,15 +28,15 @@ public class Main {
 
 			}
 			switch (ch) {
-			case 1:System.out.println("Performing addition of 2 matrices");
-			     int[][]results=bl.addMatrices(firstMatrix, secondMatrix, r1, c1, r2, c2);
-			     printResultMatrice(results);
+			case 1:System.out.println("This option is under construction thankq for your interest here.....");
 
 				break;
 			case 2:System.out.println("This option is under construction thankq for your interest here.....");
 
 				break;
-			case 3:System.out.println("This option is under construction thankq for your interest here.....");
+			case 3:System.out.println("Performing multiplication of 2 matrices");
+		     int[][]results=bl.multiplyMatrices(firstMatrix, secondMatrix, r1, c1, r2, c2);
+		     printResultMatrice(results);
 
 				break;
 			case 4:System.out.println("Thankq for using our app......");
